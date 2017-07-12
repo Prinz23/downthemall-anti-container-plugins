@@ -1,0 +1,9 @@
+{
+  "prefix": "imgcredit.xyz",
+  "match": "^https?://(?:[\\w\\d]+\\.)?imgcredit\\.xyz/.+\\.html$",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<img class='centred_resized' src='(.+)' alt='image' /></a><div class=\"downloadimg\">",
+  "builder": "{1}"
+}

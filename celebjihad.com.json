@@ -1,0 +1,9 @@
+{
+  "prefix": "celebjihad.com",
+  "match": "^(http|https)://(?:[\\w\\d]+\\.)?celebjihad\\.com/celeb-jihad/.+\\.html",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<img src=\"(.+)\" alt=.+>",
+  "builder": "{1}"
+}

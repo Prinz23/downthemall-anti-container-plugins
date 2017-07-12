@@ -1,0 +1,9 @@
+{
+  "prefix": "gifyu.com video",
+  "match": "^https?://(?:[\\w\\d]+\\.)?gifyu\\.com/[^/]+$",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<source id=\"webmSource\" src=\"([^\"]+)\" type=\"video/webm\">",
+  "builder": "{1}"
+}

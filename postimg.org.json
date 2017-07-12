@@ -1,0 +1,10 @@
+{
+  "prefix": "postimg.org",
+  "match": "^https?://(?:[\\w\\d]+\\.)?postimg\\.org/image/.+$",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<a href=\"(.+/)(.+)(/.+\\.)(.+)(\\?dl=1)\" data-toggle=\".+\" title=\".+\" class=\"btn btn-sm\"><i class=\"fa fa-lg fa-download\">",
+  "builder": "{1}{2}{3}{4}{5}",
+  "namer": "{2}.{4}"
+}

@@ -1,0 +1,9 @@
+{
+  "prefix": "photoland.io images",
+  "match": "^https?://(?:[\\w\\d]+\\.)?photoland\\.io/image/.+",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<meta property=\"og:image\" content=\"(.+)\"/>",
+  "builder": "{1}"
+}

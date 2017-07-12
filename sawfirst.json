@@ -1,0 +1,9 @@
+{
+  "prefix": "sawfirst",
+  "match": "^(http|https)://(?:[\\w\\d]+\\.)?sawfirst\\.com/.+\\.html/.+",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<meta property='og:image' content='(.+)'/>",
+  "builder": "{1}"
+}
