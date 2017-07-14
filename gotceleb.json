@@ -1,0 +1,9 @@
+{
+  "prefix": "gotceleb",
+  "match": "^(http|https)://(?:[\\w\\d.]+\\.)?www.gotceleb\\.com/[^/]+\\.html/[^/]+$",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<div class=\"postinfo\".+?href='(.+?)'>(.+?) - Full Size</a></div>",
+  "builder": "{1}"
+}
