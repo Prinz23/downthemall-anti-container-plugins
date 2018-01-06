@@ -1,0 +1,9 @@
+{
+  "prefix": "imagetwist.com",
+  "match": "^https?://(?:[\\w\\d]+\\.)?imagetwist\\.com/[^/]+/[^/]+$",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<a href=\"(.*)\" class=\"btn btn-success btn-lg\" download>Download Image</a>",
+  "builder": "{1}"
+}
