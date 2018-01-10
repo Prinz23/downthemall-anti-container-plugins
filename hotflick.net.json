@@ -1,0 +1,10 @@
+{
+  "prefix": "hotflick.net",
+  "match": "^https?://(?:[\\w\\d]+\\.)?hotflick\\.net/[fu]/v/\\?q=[^/]+$",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<img alt=\"(.+)\" id=\"img\" onclick=\"rs\\(\\)\" src=\"(.+)\" title=\".+",
+  "builder": "{2}",
+  "namer": "{1}"
+}
