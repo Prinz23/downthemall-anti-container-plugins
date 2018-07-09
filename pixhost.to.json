@@ -1,0 +1,9 @@
+{
+  "prefix": "pixhost.to",
+  "match": "^https?://(?:[\\w\\d]+\\.)?pixhost\\.to/show/.+$",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<img id=\"image\" .*class=\"image-img\" src=\"([^\"]+)\"",
+  "builder": "{1}"
+}
