@@ -1,0 +1,9 @@
+{
+  "prefix": "casimages.com",
+  "match": "^https?://(?:[\\w\\d]+\\.)?casimages\\.com/[^/]+/[^/]+$",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<a href=\"(.*)\"><img border=",
+  "builder": "{1}"
+}
