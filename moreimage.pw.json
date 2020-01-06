@@ -1,7 +1,7 @@
 {
   "prefix": "moreimage.pw",
-  "match": "^https?://(?:[\\w\\d]+\\.)?moreimage\\.pw/image/.+",
-  "date": 1360859829000,
+  "match": "^https?://(?:[\\w\\d]+\\.)?moreimage\\.pw/(.+/)?image/.+",
+  "date": 1360859830000,
   "ns": "downthemall.net",
   "type": "resolver",
   "finder": "<meta.+property=\"og:image\".+content=\"(.+)\"",

@@ -1,0 +1,9 @@
+{
+  "prefix": "turboimagehost new",
+  "match": "^(http|https)://(www.)?turboimagehost\\.com/[0-9a-zA-Z]/.+",
+  "date": 1360859829000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<meta property=\"og:image\" content=\"(.*)\".*/>",
+  "builder": "{1}"
+}

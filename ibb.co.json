@@ -1,0 +1,9 @@
+{
+  "prefix": "ibb",
+  "match": "^(http|https)://ibb\\.co/.+",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<meta property=\"og:image\" content=\"(.*)\" />",
+  "builder": "{1}"
+}
