@@ -1,0 +1,9 @@
+{
+  "prefix": "imageupload.net",
+  "match": "^https?://(?:[\\w\\d]+\\.)?imageupload\\.net/image/[^/]+$",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<meta property=\"og:image\" content=\"(.+)\"",
+  "builder": "{1}"
+}

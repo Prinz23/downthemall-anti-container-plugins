@@ -1,0 +1,9 @@
+{
+  "prefix": "subefotos.com",
+"match": "^https?://(?:[\\w\\d]+\\.)?subefotos\\.com/ver/\\?.+$",
+  "date": 1360859819000,
+  "ns": "downthemall.net",
+  "type": "resolver",
+  "finder": "<meta property=\"og:image\" content=\"(.+)\"",
+  "builder": "{1}"
+}
